@@ -4,7 +4,7 @@
 
 ### Para cargar canciones:
 - En la carpeta /letra cargar los archivos album.png, song.mp3 y lyrics.json (tiene que ser una letra ya sincronizada)
-- Para encontrar letras sincronizadas se puede usar Textyl (https://api.textyl.co/api/lyrics?q={nombre de la canción}) o crearla vos mismo (ver abajo)
+- Para encontrar letras sincronizadas se puede usar Textyl (https://api.textyl.co/api/lyrics?q= {nombre de la canción}) o crearla vos mismo (ver abajo)
 - Una vez que ya esta lista la carpeta /letra entrar a index.html
 - Con espacio se pone play/pause, haciendo click en una parte de la letra te lleva a ella
 
