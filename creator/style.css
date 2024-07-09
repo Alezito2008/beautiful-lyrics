@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.lyrics-container {
+    overflow-x: auto;
+    max-height: 70vh;
+    padding-right: 3rem;
+}
+
+audio {
+    width: 80%;
+}
+
+.lyric {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 1rem;
+}
+
+.time {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.current {
+    background-color: rgba(255, 0, 0, 0.13);
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
